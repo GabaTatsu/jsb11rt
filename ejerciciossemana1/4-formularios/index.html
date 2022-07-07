@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ejercicio HTML 1</title>
+  </head>
+  <body>
+    <form>
+      <fieldset>
+        <legend>Datos de Registro</legend>
+        <ul>
+          <li>
+             <label for="nombre">Nombre</label>
+             <input type="text" autofocus required id="nombre" name="nombre">
+          </li>
+          <li>
+            <label for="email">Correo Electrónico</label>
+            <input type="email" required id="email" name="email">
+          </li>
+          <li>
+            <label for="url">URL</label>
+            <input type="url" placeholder="Escribe la URL de tu página web personal" id="url" name="url">
+          </li>
+          <li>
+            <label for="fecha">Fecha</label>
+            <input type="date" id="fecha" name="fecha">
+          </li>
+          <li>
+            <label for="tiempo">Tiempo</label>
+            <input type="time" id="tiempo" name="tiempo">
+          </li>
+          <li>
+            <label for="fechayhora">Fecha y Hora</label>
+            <input type="datetime-local" id="fechayhora" name="fechayhora">
+          </li>
+          <li>
+            <label for="mes">Mes</label>
+            <input type="month" id="mes" name="mes">
+          </li>
+          <li>
+            <label for="semana">Semana</label>
+            <input type="week" id="semana" name="semana">
+          </li>
+          <li>
+            <label for="numero">Número</label>
+            <input type="number" min="-10" max="10" id="numero" name="numero">
+          </li>
+          <li>
+            <label for="telefono">Teléfono</label>
+            <input type="tel" value="666666666" readonly id="telefono" name="telefono">
+          </li>
+          <li>
+            <label for="terminodebusqueda">Término de Búsqueda</label>
+            <input type="search" disabled id="terminodebusqueda" name="terminodebusqueda">
+          </li>
+          <li>
+            <label for="colorfavorito">Color Favorito</label>
+            <input type="color" id="colorfavorito" name="colorfavorito">
+          </li>
+        </ul>
+        <button>Enviar</button>
+      </fieldset>
+    </form>
+  </body>
+</html>
