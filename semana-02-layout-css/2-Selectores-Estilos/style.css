@@ -1,0 +1,40 @@
+  li:nth-child(6){
+    background-color: rgb(0, 0, 255);
+  }
+  .lista li:nth-child(odd){
+    text-decoration: underline;
+    text-decoration-color: green;
+  }
+  .lista li{
+    display: inline;
+    margin: 2.5px;
+    padding: 2.5px;
+    }
+    .lista li:nth-child(1):after{
+        content: "\01F354";
+    }
+    .lista li:nth-child(2):after{
+        content: "\01F355";
+    }
+    .lista li:nth-child(3):after{
+        content: "\01F356";
+    }
+    .lista li:nth-child(4):after{
+        content: "\01F357";
+    }
+    .lista li:nth-child(5):after{
+        content: "\01F358";
+    }
+    .lista li:nth-child(6):after{
+        content: "\01F359";
+    }
+    li:lang(en){
+        text-transform: uppercase;
+        font-size: 2rem;
+    }
+    #provincias{
+        list-style-type: upper-roman;
+    }
+    #provincias li:nth-child(2){
+        list-style-type: none;
+    }

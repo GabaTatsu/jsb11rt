@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ejercicio Flex</title>
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+
+  <body>
+    <form>
+      <fieldset>
+        <legend>PERSONALIZA TU HAMBURGUESA</legend>
+      <fieldset>        
+        <legend>Ingredientes</legend>
+        <ul>
+          <li>
+            <label for="queso">Queso</label>
+            <input type="checkbox" id="queso" name="queso">
+          </li>
+          <li>
+            <label for="pimiento">Pimiento</label>
+            <input type="checkbox" id="pimiento" name="pimiento">
+          </li>
+          <li>            
+            <label for="cebolla">Cebolla</label>
+            <input type="checkbox" id="cebolla" name="cebolla">
+          </li>
+          <li>            
+            <label for="jamon">Jamón</label>
+            <input type="checkbox" id="jamon" name="jamon">
+          </li>
+          <li>            
+            <label for="huevo">Huevo</label>
+            <input type="checkbox" id="huevo" name="huevo">
+          </li>
+        </ul>
+        <legend>Tamaño</legend>
+        <ul>
+          <li>            
+            <label for="pequena">Pequeña</label>
+            <input type="radio" id="pequena" name="tamano" value="pequena">
+          </li>
+          <li>            
+            <label for="mediana">Mediana</label>
+            <input type="radio" id="mediana" name="tamano" value="mediana">
+          </li>
+          <li>            
+            <label for="grande">Grande</label>
+            <input type="radio" id="grande" name="tamano" value="grande">
+          </li>
+        </ul>
+      </fieldset>
+    </fieldset>
+      <fieldset>
+        <legend>DATOS DE ENTREGA</legend>
+        <ul>
+          <li>
+            <label for="nombre">Nombre:</label>
+      <input type="text" id="nombre" required name="nombre">
+          </li>
+          <li>
+            <label for="direccion">Dirección:</label>
+      <input type="text" id="direccion" required name="direccion">
+          </li>
+          <li>
+            <label for="tel">Teléfono</label>
+            <input type="tel" id="tel" name="tel" required>
+          </li>
+          <li>
+            <label for="coment">Instrucciones Especiales</label>
+            <textarea name="coment" id="coment" cols="30" rows="10"></textarea>
+          </li>
+        </ul>
+      </fieldset>
+      <fieldset>
+        <legend>MÉTODO DE PAGO</legend>
+        <label for="pago"></label>
+        <select name="pago" id="pago">
+          <option value="tarjeta">Pago con Tarjeta</option>
+          <option value="efectivi">En Efectivo</option>
+          <option value="paypal">PayPal</option>
+          <option value="bizum">Bizum</option>
+        </select>
+      </fieldset>
+      <button>Enviar</button>
+    </form>
+  </body>
+</html>

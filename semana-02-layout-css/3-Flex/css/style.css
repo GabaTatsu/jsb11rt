@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body{
+    font-family: sans-serif;
+    min-height: 100vh;
+    background-image: url(/img/hamburguesa.png);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+  }
+
+  form{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+  fieldset{
+    border: none;
+    width: 100%;
+  }
+  legend{
+    text-align: center;
+    margin: 1rem;
+  }
+  ul{
+    list-style: none;
+    width: 100%;
+  }
+  form label{
+    font-style: italic;
+  }
+  fieldset:nth-child(3){
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+  fieldset fieldset ul{
+    display: flex;
+    margin: 1rem;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  fieldset:nth-child(2){
+    display: block;
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+  }
+input{
+
+}
+ 
