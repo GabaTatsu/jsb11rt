@@ -28,6 +28,10 @@ li{
   left: 3rem;
   list-style-type: circle;
 }
+table{
+  position: relative;
+  left: 2.3rem;
+}
 
 h2{
   color: rgb(10, 178, 255);

@@ -36,6 +36,8 @@
             <input type="checkbox" id="huevo" name="huevo">
           </li>
         </ul>
+        </fieldset>
+        <fieldset>
         <legend>Tamaño</legend>
         <ul>
           <li>            
@@ -53,15 +55,15 @@
         </ul>
       </fieldset>
     </fieldset>
-      <fieldset>
+      <fieldset id="entrega">
         <legend>DATOS DE ENTREGA</legend>
         <ul>
           <li>
-            <label for="nombre">Nombre:</label>
+            <label for="nombre">Nombre</label>
       <input type="text" id="nombre" required name="nombre">
           </li>
           <li>
-            <label for="direccion">Dirección:</label>
+            <label for="direccion">Dirección</label>
       <input type="text" id="direccion" required name="direccion">
           </li>
           <li>
@@ -79,7 +81,7 @@
         <label for="pago"></label>
         <select name="pago" id="pago">
           <option value="tarjeta">Pago con Tarjeta</option>
-          <option value="efectivi">En Efectivo</option>
+          <option value="efectivo">En Efectivo</option>
           <option value="paypal">PayPal</option>
           <option value="bizum">Bizum</option>
         </select>

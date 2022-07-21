@@ -45,14 +45,23 @@
     margin: 1rem;
     flex-wrap: wrap;
     justify-content: center;
+    gap: 2rem;
   }
-  fieldset:nth-child(2){
-    display: block;
-    width: 100%;
-    text-align: center;
+  #entrega li{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     justify-content: center;
   }
-input{
-
-}
- 
+  #entrega fieldset{
+    width: 100%;
+    display: flex;
+  }
+  #entrega ul{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
